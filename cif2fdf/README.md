@@ -3,16 +3,15 @@ I often had difficulty in converting my structure .cif files to siesta input for
 
 ## Requirements
 ### 1. VESTA: [Download](http://jp-minerals.org/vesta/en/download.html)
-### 2. c2x: [Download](https://www.c2x.org.uk/downloads/) the binary executable of `c2x` code, make it executable, and add it to your system PATH in ~/.bashrc with the following line:
+### 2. c2x: [Download](https://www.c2x.org.uk/downloads/)
+The downloaded file is a binary executable, so just make it executable `chmod +x c2x`, and add it to your system PATH in ~/.bashrc with the following line:
 ```bash
 export PATH="/path/to/c2x:$PATH"
 ```
 Now you are able to run it with `c2x` command in a terminal.
 
-In this tutorial, I want to convert the [cif of the NiFe2O4 spinel ferrite](https://materialsproject.org/materials/mp-694944) to its siesta input .fdf file.
-
 ## Step 1. Convert .cif to .POSCAR using VESTA
-Open your cif with VESTA. 
+Here, I want to convert the [cif of the NiFe2O4 spinel ferrite](https://materialsproject.org/materials/mp-694944) to its siesta input .fdf file. First, open your cif with VESTA. 
 
 ![](files/open_cif_in_VESTA.png)
 
