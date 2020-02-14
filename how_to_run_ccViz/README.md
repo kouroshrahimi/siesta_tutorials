@@ -18,7 +18,7 @@ However as you see, mktemp is working without any problem. To resolve the error,
 Now the utility code is able to work. You can add the directory to your system PATH in ~/.bashrc to run it everywhere. For example, if you open a terminal in your calculation directory and execute the following command: 
 
 ```bash
-ccViz g-ZnO.xml
+$ ccViz g-ZnO.xml
 ```
 
 a file "g-ZnO.xhtml" is created there that you can open it with any web browser
