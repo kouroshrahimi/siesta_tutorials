@@ -157,7 +157,7 @@ if [ -f energies.meshcutoff.$PSEUDO ]; then
 gnuplot_bin=`which gnuplot 2>/dev/null`
 if [ "$gnuplot_bin" != "" ]; then
   $gnuplot_bin -persist -e "set xlabel 'meshcutoff (Ry.)'; set ylabel 'Total energy (eV.)'; p 'energies.meshcutoff.$PSEUDO' u 1:2 w linespoints"
-  $gnuplot_bin -e "set terminal png; set output 'fig.meshcutoff.$SP_psf.png'; set xlabel 'Meshcutoff (Ry.)'; set ylabel 'Total energy (eV.)'; p 'energies.meshcutoff.$PSEUDO' u 1:2 w linespoints"
+  $gnuplot_bin -e "set terminal png; set output 'fig.meshcutoff.$SP-psf.png'; set xlabel 'Meshcutoff (Ry.)'; set ylabel 'Total energy (eV.)'; p 'energies.meshcutoff.$PSEUDO' u 1:2 w linespoints"
 else
   $ECHO "No gnuplot in PATH. Results not plotted."
 fi
