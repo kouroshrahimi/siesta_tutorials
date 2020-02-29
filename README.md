@@ -8,3 +8,9 @@ Here I will add tutorials and scripts for SIESTA/TRANSIESTA package
 - [ccViz: convert siesta xml to xhtml](how_to_run_ccViz): A tutorial on how to run ccViz in newer versions of ubuntu to convert siesta output format `.xml` to `.xhtml` format
 
 - [Convergence of pseudopotential vs. MeshCutoff](pseudopotential_convergence): A script to check for the optimum value for the convergence of total energy for a single pseudopotential versus MeshCutoff parameter
+
+- [Convergence of total energy vs. MeshCutoff](meshcutoff_convergence): A script to check for the optimum value for the convergence of total energy versus MeshCutoff parameter
+
+- [Convergence of total energy vs. kpoint](kpoint_convergence): A script to check for the optimum value for the convergence of total energy versus kpoint
+
+- [Convergence of total energy vs. LatticeConstant](lattice_constant_convergence): A script to check for the optimum value for the convergence of total energy versus LatticeConstant

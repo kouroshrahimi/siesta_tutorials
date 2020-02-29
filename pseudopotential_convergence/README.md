@@ -11,4 +11,4 @@ $ ./psf_meshcutoff.sh -h
 The directory [example](example) shows the results produced by the script for `Ag.psf`.
 
 
-![](results_overview.png)
+![](example/results_overview.png)
